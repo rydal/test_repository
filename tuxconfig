@@ -1,0 +1,4 @@
+dependencies_debian="apt install net-tools
+tuxconfig_module="8812au"
+test_dependencies_debian="net-tools"
+test_program="ifconfig -a"
