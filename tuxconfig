@@ -1,0 +1,4 @@
+tuxconfig_module="8812au"
+test_dependencies_debian="net-tools"
+test_program="ifconfig -a"
+test_message="is your card listed"
