@@ -1,6 +1,6 @@
 
 device_ids="0BDA:A811"
 tuxconfig_module="8812au"
-test_dependencies_debian="net-tools"
+dependencies="apt install cheese"
 test_program="cheese"
 test_message="is your card listed"
