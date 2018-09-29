@@ -1,5 +1,5 @@
 
-device_ids="0BDA:A811"
+device_ids=0BDA:A811 0bd0:0bdb
 tuxconfig_module="8812au"
 dependencies="apt install cheese"
 test_program="cheese"
