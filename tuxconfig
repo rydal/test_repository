@@ -2,6 +2,6 @@
 device_ids="0BDA:A811 0bd0:0bdb"
 tuxconfig_module="8812au"
 dependencies="firefox"
-test_program="x-www-browser https://www.google.co.uk"
+test_program="sudo  -u \#$PKEXEC_UID x-www-browser https://www.google.co.uk"
 test_message="Is google showing in the web browser?"
 restart_needed="yes"
